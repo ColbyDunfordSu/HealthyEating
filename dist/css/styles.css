@@ -11056,6 +11056,15 @@ p {
 
 
 /* NAVIGATION*/
+
+body{
+  background-image: url(../assets/img/BG\ 1.png);
+  opacity:80%;
+}
+
+.title-color{
+  color:#596756;
+}
 .navbar-update{
   background-color:#596756 !important;
   color:#dbd7cb;
@@ -11076,7 +11085,9 @@ p {
 
 .div-transparent{
   background-color:#BED9B9;
-  opacity:70%;
+  color:#dbd7cb;
+
+
 }
 
 
