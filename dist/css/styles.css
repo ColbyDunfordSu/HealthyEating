@@ -10999,17 +10999,17 @@ p {
 }
 
 @media (min-width: 992px) {
-  .product-item .product-item-title {
+  .cost-item .cost-item-title {
     position: relative;
     z-index: 1;
     margin-bottom: -3rem;
   }
-  .product-item .product-item-img {
+  .cost-item .cost-item-img {
     position: relative;
     z-index: 0;
     max-width: 60vw;
   }
-  .product-item .product-item-description {
+  .cost-item .cost-item-description {
     position: relative;
     z-index: 1;
     margin-top: -3rem;
@@ -11091,5 +11091,5 @@ body{
 
 }
 
-/*Calculator PAGE CONTENT */
+/*about PAGE CONTENT */
 
