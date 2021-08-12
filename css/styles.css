@@ -2951,13 +2951,13 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #eab46f;
-  border-color: #e9b067;
+  background-color: #e0C534;
+  border-color: #e0C534;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
-  background-color: #eab46f;
-  border-color: #e9b067;
+  background-color: #e0C534;
+  border-color: #e0C534;
   box-shadow: 0 0 0 0.25rem rgba(196, 142, 73, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
@@ -11017,21 +11017,26 @@ p {
   }
 }
 
-.list-hours {
+.list-tips {
   font-size: 0.9rem;
 }
-.list-hours .list-hours-item {
+.list-tips .list-tips-item {
   border-bottom: 1px solid rgba(230, 167, 86, 0.5);
   padding-bottom: 0.25rem;
-  margin-bottom: 1rem;
-  font-style: italic;
+  margin-bottom: .5rem;
+  font-style:italic;
 }
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #f7efc4;
+
+.list-tips-item-sub {
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: 0.25rem;
+  margin-bottom: 2rem;
+  font-style:normal;
+  font-size: 0.85rem;
 }
+
 @media (min-width: 992px) {
-  .list-hours {
+  .list-tips {
     width: 50%;
     font-size: 1.1rem;
   }
@@ -11090,6 +11095,4 @@ body{
   color:#dbd7cb;
 
 }
-
-/*about PAGE CONTENT */
 
